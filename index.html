@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>أفق الفلك</title>
+<link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,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">
+<link rel="apple-touch-icon" href="data:image/jpeg;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3eefb;--surface:#ffffff;--text:#261443;--muted:#5b4a7d;--line:#d9cdee;--gold:#8a5a00;--accent:#5b2a9c;
+  --hero1:#1a0a3d;--hero2:#5a2a9a;--hero3:#e9a9c9;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#150a2e;--surface:#22124a;--text:#f0eafc;--muted:#bcaedc;--line:#3d2a75;--gold:#f0c27a;--accent:#cdb6ff}
+}
+:root[data-theme="dark"]{--bg:#150a2e;--surface:#22124a;--text:#f0eafc;--muted:#bcaedc;--line:#3d2a75;--gold:#f0c27a;--accent:#cdb6ff}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Naskh Arabic","Geeza Pro",Tahoma,serif;font-size:1.15rem;line-height:2;}
+h1,h2,h3{font-family:"Reem Kufi","Geeza Pro",Tahoma,sans-serif;line-height:1.4;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.hero{position:relative;min-height:88vh;display:flex;flex-direction:column;justify-content:flex-end;padding:2rem 1.25rem 0;color:#f4f1ff;overflow:hidden;
+  background:
+   radial-gradient(1.5px 1.5px at 12% 18%,#fff 98%,transparent),radial-gradient(1px 1px at 27% 42%,#fff 98%,transparent),
+   radial-gradient(2px 2px at 41% 12%,#fff 98%,transparent),radial-gradient(1px 1px at 55% 35%,#fff 98%,transparent),
+   radial-gradient(1.5px 1.5px at 68% 20%,#fff 98%,transparent),radial-gradient(1px 1px at 83% 48%,#fff 98%,transparent),
+   radial-gradient(2px 2px at 91% 14%,#fff 98%,transparent),radial-gradient(1px 1px at 7% 55%,#fff 98%,transparent),
+   radial-gradient(1.5px 1.5px at 76% 62%,#fff 98%,transparent),radial-gradient(1px 1px at 34% 66%,#fff 98%,transparent),
+   linear-gradient(180deg,var(--hero1) 0%,var(--hero2) 62%,var(--hero3) 100%);}
+.hero::after{content:"";position:absolute;inset:auto -10% -45% -10%;height:70%;border-radius:50%;
+  background:radial-gradient(closest-side,#ffd9ec,#f09bd0 45%,transparent 72%);opacity:.85;animation:rise 2.4s ease-out both}
+@keyframes rise{from{transform:translateY(40%);opacity:0}to{transform:none;opacity:.85}}
+.hero .in{position:relative;z-index:1;max-width:44rem;margin:0 auto;width:100%;padding-bottom:5rem}
+.hero h1{font-size:clamp(2.8rem,10vw,5.5rem);font-weight:700}
+.hero p{max-width:30rem;font-size:1.25rem;margin:.5rem 0 1.5rem;color:#e6e4f7}
+.btn{display:inline-block;padding:.5rem 1.4rem;border-radius:999px;background:#ffe3a8;color:#2a1f08;font-family:"Reem Kufi",sans-serif;font-weight:700;text-decoration:none}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);display:flex;gap:1.25rem;overflow-x:auto;padding:.4rem 1.25rem;white-space:nowrap}
+nav a{text-decoration:none;color:var(--muted);font-family:"Reem Kufi",sans-serif;padding:.2rem 0}
+nav a:hover{color:var(--gold)}
+nav .logo{flex:none;display:flex;align-items:center}
+nav .logo img{width:2rem;height:2rem;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:10}
+section{max-width:46rem;margin:0 auto;padding:3.5rem 1.25rem 1rem}
+h2{font-size:2rem;color:var(--gold);margin-bottom:.4rem}
+.lead{color:var(--muted);margin:0 0 1.5rem}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;margin-bottom:.7rem;padding:.2rem 1rem}
+summary{cursor:pointer;font-family:"Reem Kufi",sans-serif;font-size:1.25rem;font-weight:700;display:flex;align-items:center;gap:.8rem;padding:.4rem 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";margin-inline-start:auto;color:var(--gold);font-size:1.5rem}
+details[open] summary::after{content:"−"}
+.dot{width:1.5rem;height:1.5rem;border-radius:50%;flex:none}
+details p{margin:0 0 .8rem;color:var(--muted)}
+.tag{margin-inline-start:.5rem;font-size:.9rem;font-weight:400;color:var(--muted)}
+dl{margin:0}
+.row{display:grid;grid-template-columns:9rem 1fr;gap:.2rem 1rem;padding:.6rem 0;border-bottom:1px solid var(--line)}
+.row dt{font-family:"Reem Kufi",sans-serif;font-weight:700;color:var(--accent)}
+.row dd{margin:0}
+.row small{display:block;color:var(--muted);font-size:.95rem}
+@media (max-width:520px){.row{grid-template-columns:1fr}}
+.moon{display:flex;gap:.6rem;justify-content:space-between;margin:1rem 0 .4rem;flex-wrap:wrap}
+.moon span{display:block;width:2.6rem;height:2.6rem;border-radius:50%;background:#f5e9c8;box-shadow:inset 0 0 0 1px var(--line)}
+.m1{background:linear-gradient(90deg,#2c1a5c 0 50%,#f5e9c8 50%)!important}
+.m2{background:radial-gradient(circle at 78% 50%,#f5e9c8 0 45%,#2c1a5c 46%)!important}
+.m3{background:#f5e9c8!important}
+.m4{background:radial-gradient(circle at 22% 50%,#f5e9c8 0 45%,#2c1a5c 46%)!important}
+.m5{background:linear-gradient(270deg,#2c1a5c 0 50%,#f5e9c8 50%)!important}
+footer{margin-top:4rem;padding:2rem 1.25rem 3rem;text-align:center;color:var(--muted);border-top:1px solid var(--line);font-size:1rem}
+@media (prefers-reduced-motion:reduce){.hero::after{animation:none}html{scroll-behavior:auto}}
+
+.hamm-btn{position:fixed;inset-inline-start:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:20;display:none;align-items:center;gap:.5rem;padding:.6rem 1.1rem;border:0;border-radius:999px;background:var(--gold);color:#1b1405;font:700 1.05rem "Reem Kufi",sans-serif;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.3)}
+.hamm-btn.on{display:flex}
+.hamm{position:fixed;inset-inline-start:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:30;width:min(24rem,calc(100vw - 2rem));height:min(34rem,calc(100% - 2rem - env(safe-area-inset-bottom,0px)));display:none;flex-direction:column;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 40px rgba(0,0,0,.4);overflow:hidden}
+.hamm.open{display:flex}
+.hamm header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;background:linear-gradient(90deg,var(--hero1),var(--hero2));color:#fff;font-family:"Reem Kufi",sans-serif;font-size:1.15rem}
+.hamm header small{display:block;font-size:.8rem;color:#d6d9f2;font-family:"Noto Naskh Arabic",serif;line-height:1.4}
+.hamm header button{background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer;line-height:1}
+.msgs{flex:1;overflow-y:auto;padding:.8rem;display:flex;flex-direction:column;gap:.6rem;font-size:1.05rem;line-height:1.9}
+.msg{padding:.5rem .8rem;border-radius:14px;max-width:92%;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg.bot{background:var(--bg);border:1px solid var(--line);align-self:flex-start}
+.msg.me{background:var(--accent);color:var(--surface);align-self:flex-end}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;padding:0 .8rem .5rem}
+.chips button{font:inherit;font-size:.95rem;padding:.1rem .8rem;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer}
+.hamm form{display:flex;gap:.5rem;padding:.6rem;border-top:1px solid var(--line)}
+.hamm input{flex:1;min-width:0;font:inherit;font-size:1.05rem;padding:.4rem .8rem;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
+.hamm form button{font:700 1rem "Reem Kufi",sans-serif;padding:.4rem 1rem;border:0;border-radius:999px;background:var(--gold);color:#1b1405;cursor:pointer}
+.hamm form button:disabled{opacity:.5}
+
+.earth-btn{position:fixed;inset-inline-end:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:20;width:3.4rem;height:3.4rem;border:0;border-radius:50%;background:var(--accent);color:var(--surface);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(0,0,0,.35)}
+.earth-btn svg{width:1.9rem;height:1.9rem}
+.earth{position:fixed;inset-inline-end:1rem;bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:30;width:min(24rem,calc(100vw - 2rem));max-height:calc(100% - 2rem - env(safe-area-inset-bottom,0px));overflow-y:auto;display:none;flex-direction:column;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.earth.open{display:flex}
+.earth header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;background:linear-gradient(90deg,var(--hero1),var(--hero2));color:#fff;font-family:"Reem Kufi",sans-serif;font-size:1.15rem}
+.earth header button{background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer;line-height:1}
+.stage{height:15rem;background:radial-gradient(circle at 50% 40%,#2a1560,#0d0520);touch-action:none;cursor:grab;position:relative}
+.stage canvas{display:block;width:100%;height:100%}
+.stage p{position:absolute;inset:0;margin:0;display:flex;align-items:center;justify-content:center;color:#d9ccf5;font-size:1rem;text-align:center;padding:1rem}
+.ctl{display:grid;gap:.5rem;padding:.8rem 1rem 1rem;font-size:1rem;line-height:1.7}
+.ctl label{display:flex;align-items:center;gap:.7rem}
+.ctl label span{flex:none;min-width:6.5rem}
+.ctl input[type=range]{flex:1;min-width:0;accent-color:var(--accent)}
+.ctl .chk{gap:.5rem}
+.ctl .chk input{width:1.1rem;height:1.1rem;accent-color:var(--accent)}
+.ctl button{justify-self:start;font:700 1rem "Reem Kufi",sans-serif;padding:.3rem 1rem;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--text);cursor:pointer}
+.hint{margin:0;color:var(--muted);font-size:.9rem}
+.stage.sol{height:min(26rem,95vw);border-radius:16px;border:1px solid var(--line);overflow:hidden}
+.pl{display:flex;flex-wrap:wrap;gap:.4rem;margin:.8rem 0}
+.pl button{font:inherit;font-size:1rem;padding:.1rem .9rem;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--text);cursor:pointer}
+.pl button[aria-pressed=true]{background:var(--accent);color:var(--surface);border-color:var(--accent)}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="in">
+    <h1>أفق الفلك</h1>
+    <p>دليل عربي مبسّط إلى الكواكب والنجوم والظواهر السماوية، من أول الليل إلى الفجر.</p>
+    <a class="btn" href="#planets">ابدأ الرحلة</a>
+  </div>
+</header>
+<nav aria-label="أقسام الموقع">
+  <a href="#top" class="logo" aria-label="أفق الفلك، أعلى الصفحة"><img src="data:image/jpeg;base64,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" alt="" width="32" height="32"></a>
+  <a href="#planets">الكواكب</a><a href="#solar">المجموعة الشمسية</a><a href="#stars">النجوم</a><a href="#scholars">علماء العرب</a><a href="#events">الظواهر</a><a href="#moon">القمر والأهلّة</a>
+</nav>
+
+<main>
+<section id="planets">
+  <h2>كواكب المجموعة الشمسية</h2>
+  <p class="lead">ثمانية كواكب تدور حول الشمس. اضغط على اسم الكوكب لمعرفة أبرز ما يميّزه.</p>
+  <details><summary><i class="dot" style="background:#a79f98"></i>عطارد<span class="tag">الأقرب إلى الشمس</span></summary>
+    <p>أصغر الكواكب، ويكمل دورة حول الشمس في نحو 88 يومًا أرضيًا. لا غلاف جويًا يُذكر له، فتتفاوت حرارته تفاوتًا شديدًا بين النهار والليل.</p></details>
+  <details><summary><i class="dot" style="background:#e3c07a"></i>الزهرة<span class="tag">الأشدّ حرارة</span></summary>
+    <p>أسطع جرم في سماء الليل بعد القمر. غلافه الجوي الكثيف يحبس الحرارة فتتجاوز 460 درجة مئوية. ويدور حول نفسه ببطء شديد، حتى إن يومه أطول من سنته.</p></details>
+  <details><summary><i class="dot" style="background:#3c78c8"></i>الأرض<span class="tag">كوكبنا</span></summary>
+    <p>الكوكب الوحيد المعروف بوجود حياة عليه. نحو ثلاثة أرباع سطحه مغطى بالماء، ولها قمر طبيعي واحد.</p></details>
+  <details><summary><i class="dot" style="background:#c4553a"></i>المريخ<span class="tag">الكوكب الأحمر</span></summary>
+    <p>يدين لونه لأكسيد الحديد في تربته. فيه أعلى بركان معروف في المجموعة الشمسية، وهو أوليمبوس مونس، ويقارب ارتفاعه 22 كيلومترًا.</p></details>
+  <details><summary><i class="dot" style="background:#d1a574"></i>المشتري<span class="tag">الأكبر</span></summary>
+    <p>عملاق غازي يتّسع لأكثر من ألف كوكب بحجم الأرض. تُعرف عليه البقعة الحمراء العظمى، وهي عاصفة هائلة مستمرة منذ قرون، وله عشرات الأقمار.</p></details>
+  <details><summary><i class="dot" style="background:#e0cd96"></i>زحل<span class="tag">سيّد الحلقات</span></summary>
+    <p>تتكوّن حلقاته الشهيرة من جليد وصخور بأحجام تتراوح بين حبيبات صغيرة وكتل كبيرة. كثافته أقل من كثافة الماء.</p></details>
+  <details><summary><i class="dot" style="background:#8fd3d6"></i>أورانوس<span class="tag">الكوكب المائل</span></summary>
+    <p>يدور على جانبه تقريبًا، فتمتد فصوله عشرات السنين. لونه الأزرق المخضرّ سببه غاز الميثان في غلافه.</p></details>
+  <details><summary><i class="dot" style="background:#3856c9"></i>نبتون<span class="tag">الأبعد</span></summary>
+    <p>أبعد كواكب المجموعة الشمسية، وتهبّ عليه من أسرع الرياح المعروفة، وتتجاوز 2000 كيلومتر في الساعة. اكتُشف بالحساب الرياضي قبل رصده.</p></details>
+</section>
+
+<section id="solar">
+  <h2>المجموعة الشمسية بالأبعاد الثلاثة</h2>
+  <p class="lead">اسحب المشهد لتدويره، ثم اختر كوكبًا لتعرف عنه. الأحجام والمسافات مبسّطة للعرض وليست بمقياس حقيقي.</p>
+  <div class="stage sol" id="sStage" role="img" aria-label="نموذج ثلاثي الأبعاد للمجموعة الشمسية"><p id="sMsg">جارٍ التحميل...</p></div>
+  <div class="pl" id="sChips"></div>
+  <p id="sInfo" class="lead">اختر كوكبًا من الأزرار أعلاه.</p>
+  <div class="ctl" style="padding:0">
+    <label><span>سرعة الحركة</span><input type="range" id="sSpd" min="0" max="3" step="0.1" value="1" aria-label="سرعة الحركة"></label>
+    <label><span>التقريب</span><input type="range" id="sZoom" min="8" max="24" step="0.5" value="16" aria-label="التقريب"></label>
+  </div>
+</section>
+
+<section id="stars">
+  <h2>نجوم بأسماء عربية</h2>
+  <p class="lead">كثير من أسماء النجوم المتداولة عالميًا أصلها عربي، لأن علماء الفلك المسلمين رصدوها ودوّنوها وسمّوها.</p>
+  <dl>
+    <div class="row"><dt>الشعرى اليمانية</dt><dd>ألمع نجم في سماء الليل<small>يُعرف عالميًا باسم سيريوس</small></dd></div>
+    <div class="row"><dt>سُهيل</dt><dd>نجم شديد اللمعان في الجنوب<small>اشتهر عند العرب، وارتبط ظهوره بتبدّل الفصل</small></dd></div>
+    <div class="row"><dt>الثُّريّا</dt><dd>عنقود نجمي تُرى منه ستّ نجوم أو سبع بالعين المجرّدة<small>من أشهر ما رصده العرب قديمًا، وارتبط طلوعه بتبدّل الفصول</small></dd></div>
+    <div class="row"><dt>الدَّبَران</dt><dd>نجم برتقالي لامع في كوكبة الثور<small>اسمه من الدبور، أي التابع، لأنه يتبع الثريا في الأفق</small></dd></div>
+    <div class="row"><dt>النسر الطائر</dt><dd>نجم في كوكبة العقاب<small>يُعرف عالميًا باسم Altair</small></dd></div>
+    <div class="row"><dt>النسر الواقع</dt><dd>نجم في كوكبة القيثارة<small>يُعرف عالميًا باسم فيغا (Vega)</small></dd></div>
+    <div class="row"><dt>بيت الجوزاء</dt><dd>نجم أحمر عملاق في كوكبة الجبّار<small>ومنه جاء اسم Betelgeuse</small></dd></div>
+  </dl>
+</section>
+
+<section id="scholars">
+  <h2>من علماء الفلك العرب والمسلمين</h2>
+  <p class="lead">أسهم علماء الحضارة الإسلامية في الرصد والحساب وتصحيح الأزياج الفلكية. هذه نماذج مختصرة، والتواريخ تقريبية.</p>
+  <dl>
+    <div class="row"><dt>البتّاني</dt><dd>نحو 858 إلى 929م<small>رصد من الرقّة، وحسب طول السنة الشمسية بدقة لافتة، وصنّف زيجًا فلكيًا مشهورًا</small></dd></div>
+    <div class="row"><dt>عبد الرحمن الصوفي</dt><dd>نحو 903 إلى 986م<small>ألّف كتاب صور الكواكب الثابتة، ووصف فيه النجوم والكوكبات، وذكر المرأة المسلسلة من أقدم الإشارات إلى مجرة خارج مجرتنا</small></dd></div>
+    <div class="row"><dt>ابن الهيثم</dt><dd>نحو 965 إلى 1040م<small>رائد علم البصريات، وانتقد في كتاب الشكوك على بطلميوس بعض ما ورد في نماذجه الفلكية</small></dd></div>
+    <div class="row"><dt>البيروني</dt><dd>نحو 973 إلى 1048م<small>قدّر نصف قطر الأرض بطريقة رياضية مبتكرة، وجاءت نتيجته قريبة جدًا من القيمة المعروفة اليوم</small></dd></div>
+    <div class="row"><dt>نصير الدين الطوسي</dt><dd>نحو 1201 إلى 1274م<small>أشرف على مرصد مراغة، واشتهر بنموذج رياضي لحركة الكواكب يُعرف بزوج الطوسي</small></dd></div>
+    <div class="row"><dt>ابن الشاطر</dt><dd>نحو 1304 إلى 1375م<small>فلكي دمشقي، وضع نماذج رياضية لحركة القمر والكواكب، تشبه في بعض جوانبها ما ظهر بعده عند كوبرنيكوس</small></dd></div>
+  </dl>
+</section>
+
+<section id="events">
+  <h2>ظواهر فلكية</h2>
+  <p class="lead">أحداث سماوية يمكن رصدها، بعضها بالعين المجرّدة.</p>
+  <details open><summary>الكسوف</summary><p>يحدث حين يمرّ القمر بين الأرض والشمس فيحجب ضوءها كليًا أو جزئيًا. لا يقع إلا في نهاية الشهر القمري عند الاقتران. ولا تُنظر الشمس أثناءه إلا بنظارات مخصصة، فالنظر المباشر يضرّ العين.</p></details>
+  <details><summary>الخسوف</summary><p>يحدث حين تقع الأرض بين الشمس والقمر فيدخل القمر في ظلّها، ولا يقع إلا في اكتمال القمر. وهو آمن للرصد بالعين المجرّدة.</p></details>
+  <details><summary>الشهب</summary><p>خطوط ضوء قصيرة تنتج عن احتراق ذرات غبار وصخور صغيرة تدخل الغلاف الجوي بسرعة كبيرة. تكثر في أيام محددة من السنة تُسمّى زخّات الشهب.</p></details>
+  <details><summary>المذنّبات</summary><p>أجسام من جليد وغبار، يظهر لها ذيل حين تقترب من الشمس. أشهرها مذنّب هالي، ويعود كل 76 سنة تقريبًا، وموعد ظهوره القادم نحو عام 2061.</p></details>
+  <details><summary>الاقتران</summary><p>تقارب ظاهري بين جرمين سماويين في السماء، كالقمر مع كوكب أو كوكبين معًا، ويكون التقارب في المنظر فقط لا في المسافة الفعلية.</p></details>
+</section>
+
+<section id="moon">
+  <h2>القمر والأهلّة</h2>
+  <p class="lead">يدور القمر حول الأرض في نحو 29.5 يومًا، وتتغيّر صورته بحسب زاوية ضوء الشمس عليه.</p>
+  <div class="moon" role="img" aria-label="أطوار القمر من المحاق إلى البدر">
+    <span style="background:#2c1a5c"></span><span class="m2"></span><span class="m3"></span><span class="m4"></span><span style="background:#2c1a5c"></span>
+  </div>
+  <p class="lead">المحاق، ثم الهلال، ثم البدر، ثم التناقص وعودة إلى المحاق.</p>
+  <p>تقوم الأشهر الهجرية على رؤية الهلال، ولذلك كان رصد القمر من أقدم أبواب الفلك عند المسلمين، وبه تُحدَّد بدايات الأشهر كرمضان والحج.</p>
+</section>
+</main>
+
+<footer><p style="margin:0 0 .6rem;font-family:'Reem Kufi','Geeza Pro',Tahoma,sans-serif;font-size:1.3rem;font-weight:700;color:var(--gold)">الدليل الفلكي المتكامل من الأستاذ همم وسام زكي</p>أفق الفلك — موقع تعريفي يُحدَّث بإضافة مواضيع جديدة.</footer>
+
+<button class="hamm-btn" id="hBtn" type="button" aria-controls="hBox">اسأل الأستاذ همم</button>
+<aside class="hamm" id="hBox" aria-label="الأستاذ همم، مرشد الموقع">
+  <header><div>الأستاذ همم<small>مرشدك في علوم الفلك</small></div><button type="button" id="hClose" aria-label="إغلاق">×</button></header>
+  <div class="msgs" id="hMsgs" aria-live="polite"></div>
+  <div class="chips" id="hChips"></div>
+  <form id="hForm"><input id="hIn" type="text" placeholder="اكتب سؤالك عن الفلك" autocomplete="off" aria-label="سؤالك"><button id="hSend" type="submit">أرسل</button></form>
+</aside>
+<script>
+(function(){
+var SYS="أنت الأستاذ همم، مرشد ودود داخل موقع أفق الفلك. تجيب بالعربية الفصحى المبسطة إجابات مباشرة وواضحة في بضع جمل، وتجعلها مرتبة عند الحاجة. موضوعك علم الفلك والفضاء والظواهر السماوية ورصد السماء وتاريخ الفلك عند العرب والمسلمين. إن سُئلت عن موضوع بعيد عن ذلك فاعتذر بلطف ووجّه السائل إلى سؤال فلكي. لا تختلق معلومة، وإن لم تتأكد فقل ذلك. وفي المسائل الشرعية المتعلقة بالفلك كالأهلّة والقبلة وأوقات الصلاة بيّن الجانب العلمي وأحل الحكم الشرعي إلى أهل العلم.";
+var hist=[],busy=false,sample=null;
+var btn=document.getElementById('hBtn'),box=document.getElementById('hBox'),msgs=document.getElementById('hMsgs'),form=document.getElementById('hForm'),inp=document.getElementById('hIn'),send=document.getElementById('hSend'),chips=document.getElementById('hChips');
+function add(t,c){var d=document.createElement('div');d.className='msg '+c;d.textContent=t;msgs.appendChild(d);msgs.scrollTop=msgs.scrollHeight;return d}
+function open_(o){box.classList.toggle('open',o);btn.style.display=o?'none':'';if(o)inp.focus()}
+btn.onclick=function(){open_(true)};document.getElementById('hClose').onclick=function(){open_(false);btn.focus()};
+add('السلام عليكم، أنا الأستاذ همم. اسألني عن الكواكب أو النجوم أو الظواهر الفلكية.','bot');
+['لماذا يتغير شكل القمر؟','ما أقرب كوكب إلى الأرض؟','كيف أرى الثريا؟'].forEach(function(q){var b=document.createElement('button');b.type='button';b.textContent=q;b.onclick=function(){ask(q)};chips.appendChild(b)});
+async function ask(q){
+  q=(q||'').trim();if(!q||busy||!sample)return;busy=true;send.disabled=true;chips.style.display='none';inp.value='';
+  add(q,'me');hist.push({role:'user',content:q});
+  var turns=hist.slice(-7);if(turns[0].role!=='user')turns.shift();
+  var payload=turns.map(function(m,i){return i===0?{role:m.role,content:SYS+"\n\nالسؤال: "+m.content}:m});
+  var out=add('...','bot');
+  try{
+    var r=await sample(payload,{cache:false,modelTier:'quick',onText:function(e){out.textContent=e.text;msgs.scrollTop=msgs.scrollHeight}});
+    out.textContent=r.text;hist.push({role:'assistant',content:r.text});
+  }catch(e){
+    hist.pop();
+    out.textContent=(e&&e.code==='not_granted')?'لم يُسمح بتفعيل المرشد. يمكنك المحاولة مرة أخرى بإعادة فتح الصفحة.':(e&&e.code==='rate_limited')?'الطلبات كثيرة الآن، حاول بعد قليل.':'تعذّر الرد الآن. حاول مرة أخرى.';
+  }
+  busy=false;send.disabled=false;inp.focus();
+}
+form.onsubmit=function(e){e.preventDefault();ask(inp.value)};
+try{
+  if(window.claude&&claude.use){claude.use('sample').then(function(s){if(s){sample=s;btn.classList.add('on')}}).catch(function(){})}
+}catch(e){}
+})();
+</script>
+
+<script>
+(function(){var q=[],st=0;window.loadThree=function(ok,fail){if(window.THREE){ok();return}q.push([ok,fail]);if(st)return;st=1;var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+s.onload=function(){q.splice(0).forEach(function(c){c[0]()})};s.onerror=function(){st=0;q.splice(0).forEach(function(c){c[1]&&c[1]()})};document.head.appendChild(s)}})();
+</script>
+<button class="earth-btn" id="eBtn" type="button" aria-controls="eBox" aria-label="التحكم بالأرض ثلاثية الأبعاد" title="الأرض ثلاثية الأبعاد">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M4.5 7.5h15M4.5 16.5h15"/></svg></button>
+<aside class="earth" id="eBox" aria-label="الأرض ثلاثية الأبعاد">
+  <header><span>الأرض ثلاثية الأبعاد</span><button type="button" id="eClose" aria-label="إغلاق">×</button></header>
+  <div class="stage" id="eStage"><p id="eMsg">جارٍ التحميل...</p></div>
+  <div class="ctl">
+    <label><span>سرعة الدوران</span><input type="range" id="eSpd" min="0" max="3" step="0.1" value="0.6" aria-label="سرعة الدوران"></label>
+    <label><span>التقريب</span><input type="range" id="eZoom" min="2.2" max="5" step="0.05" value="3.4" aria-label="التقريب"></label>
+    <label class="chk"><input type="checkbox" id="eTilt" checked> ميل محور الأرض (نحو 23.4 درجة)</label>
+    <label class="chk"><input type="checkbox" id="eCloud" checked> إظهار السحب</label>
+    <label class="chk"><input type="checkbox" id="eAtm" checked> إظهار الغلاف الجوي</label>
+    <button type="button" id="eReset">إعادة الضبط</button>
+    <p class="hint">اسحب الكرة بإصبعك أو بالفأرة لتدويرها. القارات مرسومة بخريطة مبسّطة وليست دقيقة التفاصيل.</p>
+  </div>
+</aside>
+<script>
+(function(){
+var btn=document.getElementById('eBtn'),box=document.getElementById('eBox'),stage=document.getElementById('eStage'),msg=document.getElementById('eMsg');
+var spd=document.getElementById('eSpd'),zoom=document.getElementById('eZoom'),tilt=document.getElementById('eTilt'),cloud=document.getElementById('eCloud'),atm=document.getElementById('eAtm');
+var T=null,ready=false,loading=false,running=false,R,scene,cam,pivot,earth,clouds,glow,drag=null;
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(reduce)spd.value=0;
+function hash(x,y,z){var h=Math.sin(x*127.1+y*311.7+z*74.7)*43758.5453;return h-Math.floor(h)}
+function vn(x,y,z){var xi=Math.floor(x),yi=Math.floor(y),zi=Math.floor(z),xf=x-xi,yf=y-yi,zf=z-zi;
+ function f(t){return t*t*(3-2*t)}var u=f(xf),v=f(yf),w=f(zf);
+ function l(a,b,t){return a+(b-a)*t}
+ return l(l(l(hash(xi,yi,zi),hash(xi+1,yi,zi),u),l(hash(xi,yi+1,zi),hash(xi+1,yi+1,zi),u),v),l(l(hash(xi,yi,zi+1),hash(xi+1,yi,zi+1),u),l(hash(xi,yi+1,zi+1),hash(xi+1,yi+1,zi+1),u),v),w)}
+function fbm(x,y,z){var a=.5,t=0,f=1;for(var i=0;i<5;i++){t+=a*vn(x*f,y*f,z*f);a*=.5;f*=2}return t}
+function makeTex(kind){
+ var W=768,H=384,c=document.createElement('canvas');c.width=W;c.height=H;var g=c.getContext('2d'),im=g.createImageData(W,H),d=im.data;
+ for(var j=0;j<H;j++){var lat=(0.5-(j+.5)/H)*Math.PI,cl=Math.cos(lat),sl=Math.sin(lat);
+  for(var i=0;i<W;i++){var lon=((i+.5)/W)*2*Math.PI,x=cl*Math.cos(lon),z=cl*Math.sin(lon),y=sl,k=(j*W+i)*4,r,gg,b,a=255;
+   if(kind==='land'){
+    var e=fbm(x*1.6+9,y*1.6+9,z*1.6+9),pol=Math.abs(lat)>1.22+ (fbm(x*4,y*4,z*4)-.5)*.25;
+    if(pol){r=240;gg=245;b=250}
+    else if(e<.5){var dp=(.5-e)/.2;dp=Math.min(1,dp);r=30-20*dp;gg=100-55*dp;b=170-60*dp}
+    else{var h=(e-.5)/.2;h=Math.min(1,h);
+     if(h<.45){r=60+60*h;gg=130-10*h;b=60}else if(h<.8){r=120+40*(h-.45);gg=110;b=70}else{r=215;gg=215;b=215}}
+   }else{var q=fbm(x*2.4+3,y*2.4+3,z*2.4+3),al=Math.max(0,Math.min(1,(q-.5)*3.2));r=gg=b=255;a=al*210}
+   d[k]=r;d[k+1]=gg;d[k+2]=b;d[k+3]=a}}
+ g.putImageData(im,0,0);var t=new THREE.CanvasTexture(c);return t}
+var LAND=[
+[-168,65.5,-162,70,-156,71,-141,69.5,-128,70,-115,68.5,-100,68,-95,71,-85,69,-76,68,-68,61,-64,60,-60,55,-56,52,-60,48,-66,45,-70,43.5,-70,41.7,-74,40.5,-76,37,-76,35,-81,31.5,-80,26,-81.5,25,-83,29,-85,30,-89,30,-90,29,-94,29.5,-97,27,-97.5,22,-95,18.5,-91,18.5,-90,21,-87,21.5,-88,16,-84,15.5,-83,11,-80,9,-77.5,8.5,-80,7.5,-83,8.5,-86,11,-88,13,-92,14.5,-96,15.8,-105,19.5,-106,23,-109.5,25.5,-112.5,29.5,-114.5,31,-115.5,29,-112,25,-110,23,-112,24.5,-114.5,27.5,-116,30,-117,32.5,-120.5,34.5,-122.5,37.5,-124,40.5,-124.5,44,-124,47,-123,49,-127,51,-130,54.5,-134,58,-140,59.8,-146,60.8,-152,59,-158,56.5,-163,54.8,-160,58.5,-165,60.5,-165,63],
+[-73,78,-60,82,-30,83.5,-20,80,-18,76,-22,70,-32,68,-41,64,-44,60,-49,61,-53,66,-55,70,-60,76],
+[-80,73,-72,71,-62,67,-65,63,-72,63,-78,65,-86,70],
+[-90,77,-78,76,-62,82,-80,83,-92,81],
+[-118,71,-105,73,-100,70,-110,68.5,-118,70],
+[-85,22,-80,23,-74,20,-78,20,-82,22.5],
+[-74.5,18.5,-72,19.8,-68.5,18.5,-71,17.8],
+[-77.5,8.5,-75,11,-72,12,-71,11,-68,10.7,-62,10.5,-60,8.5,-57,6,-52,5,-50,1.5,-48,-1,-44,-2.5,-39,-3.5,-35,-5.5,-35,-9,-37.5,-12,-39,-17,-41,-22,-45,-23.5,-48.5,-26,-49,-29,-53,-34,-56,-34.5,-58,-34.5,-57,-37,-62,-39,-65,-41,-64,-43,-66,-46,-67.5,-47,-66,-49,-69,-51,-68.5,-53,-70,-54,-74,-52,-75,-47,-73.5,-42,-73.5,-37,-71.5,-30,-70.5,-23,-70.3,-18,-76,-14,-79,-8,-81,-5,-80,-2,-80,1,-78.5,2,-77.5,6],
+[-17,21,-16,24,-13,27.5,-10,29.5,-9.5,32,-6,35.8,-2,35,3,36.8,10,37.2,11,35,10,33.5,15,32.5,20,32,20,30.5,25,31.8,32,31.2,32.6,29.9,34,27,35.5,24,37,21,38.5,18,39.5,15.5,41,14,43,12.5,43.5,11.5,51.2,11.8,51,10.4,49,6,46,2,43,-1,41,-2,39.5,-5,39,-8,40.5,-11,40.5,-15,37,-18,35,-21,35.5,-24,33,-26,32.8,-28,30,-31.5,27,-33.5,22,-34,19,-34.5,18,-32,16.5,-28.5,14.5,-22.5,13,-17,12,-13.5,13.5,-9,12,-5.5,9.5,-1,9.5,3.5,8.5,4.5,5,5.5,3,6.3,-1.5,5,-4.5,5.2,-7.5,4.4,-11,6.5,-13.5,9.5,-16.8,12.5,-16.5,16],
+[-9,37,-9.5,39,-9,43,-2,43.5,-1.5,46,-4.5,48.5,-1.5,49.5,2,51,4,52,8,54,8.5,57,10.5,57.7,10.5,55,12,54,19,54.5,21,57,24,59.5,30,60,23,60,21.5,61,21.5,64,25,65.3,22,65.8,18,63,17.5,60.5,19,59.5,16.5,57,14,55.5,12.5,56,11,58.5,8,58,5.5,59,5,62,10,64,14,67.5,18,69.7,25,71,31,70.3,41,67,34,66.5,38,64.5,44,66,44,68.5,54,68.5,60,69,68,69,69,73,80,73,87,75,100,77,105,77.5,113,74,125,73,140,72.5,150,71,160,69.5,170,70,180,69,180,65,178,64.5,172,61,166,60.5,163,58,162,55,156.5,51,155.8,56,151,59.5,143,59.3,137,54,140.5,49,135,43.5,131,42.5,129.7,41,129,38,129.4,35.5,126.5,34.5,126.5,37.5,125,39.5,121.5,39,118,39,119,37.3,122.5,37,120,35,121.5,32,122,30,120,26,116,22.8,111,21,108,21.5,106,19.5,108.5,15,109,12,105,8.7,105,10.4,103,10.5,100.5,13.5,100,9,102,6,103.5,1.4,101,3,98.5,8,98.5,13,97.5,16.5,94.5,16,94,19,92,21.5,91,22.5,87,21.5,86.5,20,84.5,19,82,16.5,80.2,15.5,80.3,13,79.8,10.3,77.5,8.1,76.2,10,74.8,13,73,17,72.8,21,70.5,21,69,22.3,68.8,23.5,67,24.8,62,25.2,57,25.7,56.5,27,54,26.7,51,28,48.5,30,48,29,50,26.2,51.5,24.5,54,24,56,26,56.5,24.5,58.7,23.6,59.8,22.5,58,20,55,17,52,16,48,14,45,12.8,43.2,12.7,42.5,15,40,19,38,22,36,25.5,35,28.5,34.3,27.8,32.6,29.9,34,31.2,35,33,35.9,35.8,36.2,36.7,34,36.2,32,36.2,30.5,36.5,28,36.7,27.2,37.6,26.4,39,26.2,40.1,24.8,40.5,24,40.9,23.3,40.2,22.8,40.5,22.9,39.2,24,38.2,23.2,36.6,21.8,36.6,21.2,37.8,21,38.5,19.5,40,19.5,42,18,42.8,16,43.5,13.7,45.5,12.3,45.4,12.5,44,14,42,16,41.9,18.5,40.2,17,39.8,16.5,38.9,16,38,15.6,40,14,40.8,12.5,41.5,10.5,43,8.8,44.4,7,43.7,4.5,43.4,3.2,42.4,0.5,40.5,-0.3,38.8,-1.5,37.2,-2.2,36.7,-4.4,36.7,-5.6,36,-6.3,36.7,-7.5,37.2],
+[-180,69,-175,67.5,-170,66,-173,64.5,-180,65],
+[80,9.7,81.8,7.5,81,6,80,6.2,79.8,8.3],
+[130.9,34,133,35.5,136,36,137,37.5,140,40,141.5,41.2,142,39.5,141,36,139.8,35,137,34.6,135,33.5,132,33.9],
+[140,41.5,140.3,43.5,141.5,45.3,145.3,43.5,143,42],
+[129.8,33,131.5,33.8,131.5,31.5,130.5,31],
+[120.2,23,121.5,25.2,122,24.5,120.8,22],
+[142,46,143,49,143,54,142,53],
+[120,18,122.2,18.5,121.8,15.5,124,13.2,121,13.8,120,16],
+[122,7,126.5,9.5,126,6,124,6.3],
+[95.3,5.6,98,4,101,2,104,-1,106,-3,105.8,-5.8,102,-4,99,-1.5,95.5,3.5],
+[105.2,-6.8,108,-6.3,111,-6.5,114.5,-7.8,114,-8.7,108,-7.8],
+[109,1.5,111,2.2,113,3.3,116,6.8,118.5,5.2,117.8,1,116.5,-2,116,-4,113,-3.5,110,-3,109,-1],
+[119.5,-5.5,119,-3,120,0.5,124.5,1.5,123,-0.8,121.2,-1.5,123.5,-3.5,121.5,-4.8,120.5,-3,120,-5.5],
+[131,-0.8,135,-3.3,138,-1.8,141,-2.6,145,-4.5,147.5,-6.2,147.8,-8,150.5,-10.5,147,-10,143.5,-9,141,-9.2,138,-8.3,137.8,-5.5,134,-4,132,-2.8],
+[113.5,-22,114,-26,115,-34,118,-35,123,-34,126,-32.2,131,-31.5,134,-32.8,136,-35,138,-34,140,-37.5,144,-38.5,147,-38.8,150,-37.5,152.5,-32,153.5,-28,153,-25,150.5,-22.5,146,-19,145.3,-15,143.5,-14,142.5,-10.8,141.5,-13,141.5,-17,139,-17.5,136.8,-15.5,135.5,-12,132,-11.3,130,-13,129.5,-15,126,-14,123,-17,121,-19,117,-20.5],
+[145,-40.8,148,-41,148,-43,146,-43.6,145,-42],
+[172.7,-34.5,175,-36.5,178.5,-37.7,177,-39.5,175.2,-41.6,174.7,-40,173.8,-39.2,174.6,-37.5],
+[172.8,-40.5,174,-41.7,172.5,-43.8,171,-45,169,-46.6,166.5,-46,168,-44,170.5,-42.8],
+[49.3,-12,50.5,-15.5,49.5,-17.5,47.5,-24.5,45,-25.5,43.8,-23,44.5,-19,46,-15.8,48,-14],
+[-5.7,50,1.4,51.2,1.7,52.8,0,53.5,-1.8,55,-2,57.5,-4,58.6,-6,58.3,-5.5,56.5,-5,55,-3,54.5,-3,53.4,-4.8,52.5,-5.2,51.7,-3,51.3],
+[-10,51.8,-6,52,-6,54.2,-8,55.2,-10,54],
+[-24,65.5,-22,66.4,-15,66.3,-13.5,65,-18,63.4,-22,63.8],
+[12.5,38,15.6,38.2,15,36.7,12.5,37.6],
+[8.2,41,9.7,41,9.6,39.2,8.4,39],
+[32.3,35,34.5,35.6,33.5,34.6]
+];
+var SEAS=[
+[-95,59,-94,56,-88,56.5,-82,55,-79,52,-78,56,-77,60,-72,62,-78,63,-86,64,-90,64,-94,62],
+[28,41.5,28.5,43.5,29.7,45.2,31.5,46.5,33.5,46,33,45,35.5,45.2,38,47,37.5,45,40,43.5,41.5,41.7,38,41,35,42,32,41.5,29,41.2],
+[47,43,47.5,45,49,46.8,51.5,47,53,45.5,51,44,52.5,42,54,40,53.5,37,50.5,37,49,38.5,49,40.5,47.5,42]
+];
+
+function makeLand(){
+ var W=1024,H=512,m=document.createElement('canvas');m.width=W;m.height=H;var g=m.getContext('2d');
+ function path(c,p){c.beginPath();for(var i=0;i<p.length;i+=2){var x=(p[i]+180)/360*W,y=(90-p[i+1])/180*H;i?c.lineTo(x,y):c.moveTo(x,y)}c.closePath()}
+ g.fillStyle='#000';g.fillRect(0,0,W,H);g.fillStyle='#fff';LAND.forEach(function(p){path(g,p);g.fill()});g.fillStyle='#000';SEAS.forEach(function(p){path(g,p);g.fill()});
+ var md=g.getImageData(0,0,W,H).data;
+ var c=document.createElement('canvas');c.width=W;c.height=H;var q=c.getContext('2d');
+ q.fillStyle='#164a94';q.fillRect(0,0,W,H);q.strokeStyle='rgba(70,150,215,.5)';q.lineWidth=7;q.lineJoin='round';LAND.forEach(function(p){path(q,p);q.stroke()});
+ var im=q.getImageData(0,0,W,H),d=im.data;
+ function mix(a,b,t){t=Math.max(0,Math.min(1,t));return[a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t,a[2]+(b[2]-a[2])*t]}
+ for(var j=0;j<H;j++){var lat=90-(j+.5)/H*180,al=Math.abs(lat),la=lat*Math.PI/180,cl=Math.cos(la);
+  for(var i=0;i<W;i++){var k=(j*W+i)*4,lon=((i+.5)/W)*2*Math.PI,x=cl*Math.cos(lon),z=cl*Math.sin(lon),y=Math.sin(la),n=vn(x*6,y*6,z*6),col=null;
+   if(lat<-66+n*4||(lat>83&&md[k]<128)){col=mix([225,235,245],[250,252,255],n)}
+   else if(md[k]>127){var dry=Math.max(0,1-Math.abs(al-25)/12)*(.35+n*1.1);col=mix([55,128,62],[196,168,104],dry);col=mix(col,[112,126,100],(al-50)/20);col=mix(col,[240,244,248],(al-68)/10);var f=.85+.3*n;col=[col[0]*f,col[1]*f,col[2]*f]}
+   if(col){d[k]=col[0];d[k+1]=col[1];d[k+2]=col[2]}}}
+ q.putImageData(im,0,0);return new THREE.CanvasTexture(c)}
+function build(){
+ R=new THREE.WebGLRenderer({antialias:true,alpha:true});R.setPixelRatio(Math.min(2,window.devicePixelRatio||1));
+ scene=new THREE.Scene();cam=new THREE.PerspectiveCamera(40,1,.1,50);cam.position.z=+zoom.value;
+ scene.add(new THREE.AmbientLight(0x8877aa,.9));var L=new THREE.DirectionalLight(0xffffff,1.1);L.position.set(4,2,5);scene.add(L);
+ pivot=new THREE.Group();scene.add(pivot);
+ earth=new THREE.Mesh(new THREE.SphereGeometry(1,64,48),new THREE.MeshPhongMaterial({map:makeLand(),shininess:12}));pivot.add(earth);
+ clouds=new THREE.Mesh(new THREE.SphereGeometry(1.015,64,48),new THREE.MeshPhongMaterial({map:makeTex('cloud'),transparent:true,depthWrite:false}));earth.add(clouds);
+ glow=new THREE.Mesh(new THREE.SphereGeometry(1.07,48,36),new THREE.MeshBasicMaterial({color:0x7fb2ff,transparent:true,opacity:.18,side:THREE.BackSide}));pivot.add(glow);
+ stage.appendChild(R.domElement);msg.style.display='none';apply();size();
+ stage.addEventListener('pointerdown',function(e){drag={x:e.clientX,y:e.clientY};stage.setPointerCapture(e.pointerId);stage.style.cursor='grabbing'});
+ stage.addEventListener('pointermove',function(e){if(!drag)return;earth.rotation.y+=(e.clientX-drag.x)*.008;pivot.rotation.x=Math.max(-1.2,Math.min(1.2,pivot.rotation.x+(e.clientY-drag.y)*.006));drag={x:e.clientX,y:e.clientY}});
+ function up(){drag=null;stage.style.cursor='grab'}
+ stage.addEventListener('pointerup',up);stage.addEventListener('pointercancel',up);
+ ready=true}
+function size(){if(!R)return;var w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}
+function apply(){if(!ready&&!R)return;cam.position.z=+zoom.value;pivot.rotation.z=tilt.checked?.409:0;clouds.visible=cloud.checked;glow.visible=atm.checked}
+function loop(){if(!running)return;requestAnimationFrame(loop);if(!drag){earth.rotation.y+=.004*(+spd.value)}clouds.rotation.y+=.0006*(+spd.value);R.render(scene,cam)}
+function openIt(){
+ var hb=document.getElementById('hClose');if(hb&&document.getElementById('hBox').classList.contains('open'))hb.click();
+ box.classList.add('open');btn.style.display='none';
+ loadThree(start,function(){msg.textContent='تعذّر تحميل العرض ثلاثي الأبعاد.'})}
+function start(){if(!window.THREE||!box.classList.contains('open'))return;if(!R){try{build()}catch(e){msg.style.display='flex';msg.textContent='متصفحك لا يدعم العرض ثلاثي الأبعاد.';return}}size();if(!running){running=true;loop()}}
+function closeIt(){box.classList.remove('open');btn.style.display='';running=false;btn.focus()}
+btn.onclick=openIt;document.getElementById('eClose').onclick=closeIt;
+[spd,zoom,tilt,cloud,atm].forEach(function(el){el.addEventListener('input',apply)});
+document.getElementById('eReset').onclick=function(){spd.value=reduce?0:.6;zoom.value=3.4;tilt.checked=true;cloud.checked=true;atm.checked=true;if(earth){earth.rotation.y=0;pivot.rotation.x=0}apply()};
+window.addEventListener('resize',size);
+var hb=document.getElementById('hBtn');if(hb)hb.addEventListener('click',function(){if(box.classList.contains('open'))closeIt()});
+})();
+</script>
+<script>
+(function(){
+var P=[
+{n:'عطارد',r:1.6,s:.12,c:0xa79f98,p:.24,t:'أقرب كوكب إلى الشمس، ويكمل دورة في نحو 88 يومًا.'},
+{n:'الزهرة',r:2.3,s:.2,c:0xe3c07a,p:.62,t:'الأشد حرارة بين الكواكب، وتتجاوز حرارته 460 درجة مئوية.'},
+{n:'الأرض',r:3.0,s:.22,c:0x3c78c8,p:1,t:'كوكبنا، والوحيد المعروف بوجود حياة عليه.'},
+{n:'المريخ',r:3.8,s:.16,c:0xc4553a,p:1.88,t:'الكوكب الأحمر، وفيه أعلى بركان معروف في المجموعة الشمسية.'},
+{n:'المشتري',r:5.2,s:.55,c:0xd1a574,p:11.86,t:'أكبر الكواكب، وعليه عاصفة البقعة الحمراء العظمى.'},
+{n:'زحل',r:6.6,s:.47,c:0xe0cd96,p:29.5,t:'سيّد الحلقات، وكثافته أقل من كثافة الماء.',ring:1},
+{n:'أورانوس',r:7.8,s:.33,c:0x8fd3d6,p:84,t:'يدور على جانبه تقريبًا، ولونه من غاز الميثان في غلافه.'},
+{n:'نبتون',r:8.9,s:.32,c:0x3856c9,p:164.8,t:'أبعد الكواكب، وتهبّ عليه رياح من الأسرع المعروفة.'}];
+var stage=document.getElementById('sStage'),msg=document.getElementById('sMsg'),info=document.getElementById('sInfo'),box=document.getElementById('sChips'),spd=document.getElementById('sSpd'),zoom=document.getElementById('sZoom');
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduce)spd.value=0;
+var R,scene,cam,B=[],sel=-1,th=.6,ph=1.05,drag=null,vis=false,built=false,running=false,last=0,asked=false;
+var btns=P.map(function(pl,i){var b=document.createElement('button');b.type='button';b.textContent=pl.n;b.setAttribute('aria-pressed','false');b.onclick=function(){pick(sel===i?-1:i)};box.appendChild(b);return b});
+function pick(i){sel=i;btns.forEach(function(b,k){b.setAttribute('aria-pressed',k===i?'true':'false')});info.textContent=i<0?'اختر كوكبًا من الأزرار أعلاه.':P[i].n+': '+P[i].t;
+ B.forEach(function(o,k){o.m.scale.setScalar(k===i?1.6:1);o.l.material.color.setHex(k===i?0xffe08a:0x9a86d6);o.l.material.opacity=k===i?.95:.45})}
+function build(){
+ R=new THREE.WebGLRenderer({antialias:true,alpha:true});R.setPixelRatio(Math.min(2,window.devicePixelRatio||1));
+ scene=new THREE.Scene();cam=new THREE.PerspectiveCamera(45,1,.1,100);
+ scene.add(new THREE.AmbientLight(0x9988bb,.8));scene.add(new THREE.PointLight(0xfff0d0,2.2,0,0));
+ scene.add(new THREE.Mesh(new THREE.SphereGeometry(.75,32,24),new THREE.MeshBasicMaterial({color:0xffd27a})));
+ scene.add(new THREE.Mesh(new THREE.SphereGeometry(.95,32,24),new THREE.MeshBasicMaterial({color:0xffb347,transparent:true,opacity:.22})));
+ P.forEach(function(pl){
+  var pts=[];for(var a=0;a<=96;a++){var t=a/96*Math.PI*2;pts.push(new THREE.Vector3(Math.cos(t)*pl.r,0,Math.sin(t)*pl.r))}
+  var l=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:0x9a86d6,transparent:true,opacity:.45}));scene.add(l);
+  var m=new THREE.Mesh(new THREE.SphereGeometry(pl.s,24,18),new THREE.MeshPhongMaterial({color:pl.c}));
+  if(pl.ring){var rg=new THREE.Mesh(new THREE.RingGeometry(pl.s*1.35,pl.s*2.1,48),new THREE.MeshBasicMaterial({color:0xe6d6a0,side:THREE.DoubleSide,transparent:true,opacity:.75}));rg.rotation.x=Math.PI/2-.45;m.add(rg)}
+  scene.add(m);B.push({m:m,l:l,a:Math.random()*6.28,w:1/Math.pow(pl.p,.65),r:pl.r})});
+ stage.appendChild(R.domElement);msg.style.display='none';size();built=true;
+ stage.addEventListener('pointerdown',function(e){drag={x:e.clientX,y:e.clientY};stage.setPointerCapture(e.pointerId);stage.style.cursor='grabbing'});
+ stage.addEventListener('pointermove',function(e){if(!drag)return;th-=(e.clientX-drag.x)*.008;ph=Math.max(.25,Math.min(1.5,ph-(e.clientY-drag.y)*.006));drag={x:e.clientX,y:e.clientY}});
+ function up(){drag=null;stage.style.cursor='grab'}stage.addEventListener('pointerup',up);stage.addEventListener('pointercancel',up)}
+function size(){if(!R)return;var w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}
+function loop(t){if(!running)return;requestAnimationFrame(loop);var dt=Math.min(.05,(t-last)/1000||0);last=t;var sp=+spd.value;
+ B.forEach(function(o){o.a+=dt*sp*o.w*1.6;o.m.position.set(Math.cos(o.a)*o.r,0,Math.sin(o.a)*o.r);o.m.rotation.y+=dt*sp});
+ var d=+zoom.value;cam.position.set(d*Math.sin(ph)*Math.cos(th),d*Math.cos(ph),d*Math.sin(ph)*Math.sin(th));cam.lookAt(0,0,0);R.render(scene,cam)}
+function go(){if(!built){try{build()}catch(e){msg.textContent='متصفحك لا يدعم العرض ثلاثي الأبعاد.';return}}if(vis&&!running){running=true;last=performance.now();requestAnimationFrame(loop)}}
+function ask(){if(asked)return;asked=true;loadThree(go,function(){asked=false;msg.textContent='تعذّر تحميل العرض ثلاثي الأبعاد.'})}
+if('IntersectionObserver' in window){new IntersectionObserver(function(es){vis=es[0].isIntersecting;if(vis){if(window.THREE&&asked)go();else ask()}else running=false},{rootMargin:'200px'}).observe(stage)}else{vis=true;ask()}
+window.addEventListener('resize',size);
+})();
+</script>
+</body>
+</html>
